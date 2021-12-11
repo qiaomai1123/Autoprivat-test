@@ -1,0 +1,16 @@
+-
+  name: 参数
+  request:
+    method: get
+    url: https://autumnfish.cn/search
+    data:
+      keywords: 周杰伦
+-
+  name: keyword为空
+  request:
+    method: get
+    url: https://autumnfish.cn/search
+    data:
+      keywords:
+
+

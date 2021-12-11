@@ -1,0 +1,25 @@
+-
+  api_name: 获取网易新闻
+  api_request:
+    method: post
+    url: https://api.apiopen.top/getWangYiNews
+    headers:
+      Content-Type: application/json
+    data:
+      page: 1
+      count: 5
+  assert:
+    eq: {code: 200}
+-
+  api_name: 获取网易新闻
+  api_request:
+    method: post
+    url: https://api.apiopen.top/getWangYiNews
+    headers:
+      Content-Type: application/json
+    data:
+      page: 2
+      count: 5
+  assert:
+    eq: {code: 200}
+
