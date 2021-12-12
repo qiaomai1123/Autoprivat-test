@@ -88,7 +88,7 @@ class public_testapi:
                 lists.append(url)
             return lists
         else:
-            return "信息有误，请重新输入!！"
+            return "信息有误，请重新输入！"
     # def get_assert(self):
     #     rb = openpyxl.load_workbook('./data/data_url.xls')#获得sheet对象
     #     sheet = rb['Sheet1']#获取第一张表
